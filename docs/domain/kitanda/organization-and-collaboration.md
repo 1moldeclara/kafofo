@@ -1,5 +1,8 @@
 # Kitanda — Organização e colaboração
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 ## Duplicidades
 
 Ao adicionar item que já exista na mesma lista, identificar duplicidade, alertar e oferecer soma de quantidades. Usuário pode manter separado. Exemplo fornecido: Leite — 2 litros mais Leite — 1 litro pode resultar em Leite — 3 litros.

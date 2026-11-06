@@ -1,5 +1,8 @@
 # Plataforma — Pendências, conflitos e riscos
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 As prioridades abaixo são recomendações de sequência de refinamento, não alteração do escopo aprovado. Questões locais devem ser resolvidas antes da funcionalidade afetada; não é necessário reabrir decisões já explícitas.
 
 | ID | Ponto | Evidência / conflito | Impacto e encaminhamento |
@@ -41,3 +44,7 @@ Primeiro, resolver Q-P01–08 e Q-P18 para implementar identidade, recuperação
 ## Tratamento das divergências
 
 Preservar o texto de origem e a identificação da regra; registrar resolução explícita na documentação afetada; quando houver mudança de decisão arquitetural aceita, criar ADR substituta ou revisão de status conforme o índice de ADRs. Nenhuma pendência desta lista foi resolvida silenciosamente nesta consolidação.
+
+## Tratamento posterior na Alpha 1
+
+A tabela acima preserva as questões identificadas na consolidação original. Consulte o [contrato aprovado](alpha-1.md) para a resolução no incremento. Uma questão pode estar resolvida para a Alpha 1 e continuar aberta para contextos ou capacidades adiados. A POC de autenticação, biblioteca de frontend, licença e CD mantêm seus status próprios.

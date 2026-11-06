@@ -1,5 +1,8 @@
 # Plataforma — Visão geral
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 ## Objetivo e posicionamento
 
 Kafofo é uma plataforma de organização e administração da vida doméstica compartilhada, com proposta open-source, self-hosted e modular. Atende pessoas sozinhas, casais, famílias, moradias compartilhadas e pessoas que administram residências nas quais não moram.

@@ -1,5 +1,8 @@
 # Plataforma — Requisitos funcionais
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 **Base:** levantamento consolidado; escopo `plataforma`. São 123 requisitos de plataforma, não o total do produto. IDs e títulos originais foram mantidos. O comportamento normativo vem dos parágrafos de cada grupo e dos documentos vinculados; pontos não definidos permanecem em [pendências](open-questions.md).
 
 ## Integrações

@@ -1,5 +1,8 @@
 # Kitanda — Visão geral
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 Kitanda permite criar, organizar e compartilhar listas de compras nos contextos pessoal, núcleo e residência, entre pessoas autorizadas. Prioriza simplicidade, colaboração e atualização compartilhada das compras domésticas.
 
 O nome e a personalidade definidos são próximos, populares, culturais e práticos. O documento de marca associa Kitanda à palavra de referência quimbunda relacionada a feira ou mercado. Esta consolidação preserva a atribuição da marca sem realizar validação etimológica adicional.

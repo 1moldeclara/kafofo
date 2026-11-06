@@ -1,5 +1,8 @@
 # Kitanda — Requisitos funcionais
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 **Escopo dos IDs:** `kitanda`. São 22 enunciados da especificação atual, sem renumeração. Detalhamento nos fluxos e documentos de ciclo de vida, colaboração e permissões.
 
 | ID | Nome | Definição |

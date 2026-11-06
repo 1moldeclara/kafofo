@@ -1,5 +1,8 @@
 # Plataforma — Regras de negócio
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 **Base:** RN-001 a RN-050 do levantamento, com ausência da RN-020. São 49 regras identificadas; a numeração não foi compactada. O catálogo preserva os enunciados originais; o detalhamento abaixo consolida as definições textuais associadas.
 
 ## Catálogo original

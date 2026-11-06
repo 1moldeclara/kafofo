@@ -19,7 +19,7 @@ Cada domínio possui índice próprio, visão geral, entidades, requisitos ou ca
 
 ## Arquitetura, marca e fontes
 
-- [ADRs](adr/README.md): 22 decisões e respectivos status, em uma única cópia compartilhada.
+- [ADRs](adr/README.md): 23 registros e respectivos status, em uma única cópia compartilhada.
 - [Identidade de marca](brand/README.md): extrato documentado da plataforma e nomes disponíveis.
 - [Referências](reference/README.md): fontes históricas e especificações utilizadas.
 
@@ -46,3 +46,11 @@ Extrair o ZIP na raiz produz `README.md` e `docs/`, sem diretório adicional de 
 - [Proveniência da importação](reference/importacao-repositorio.md).
 
 O backlog está nas Issues; estes documentos não mantêm cópias de tarefas ou status.
+
+## Contratos da Alpha 1
+
+- [Plataforma: acesso, segurança, exportação e operação](domain/platform/alpha-1.md).
+- [Kitanda: listas de residência, compartilhamento e compras](domain/kitanda/alpha-1.md).
+- [ADR-0023: histórico e retenção por categoria](adr/0023-auditoria-retencao-alpha-1.md).
+
+Estes contratos fixam o alcance aprovado do incremento; não comprovam implementação ou encerramento do MVP.

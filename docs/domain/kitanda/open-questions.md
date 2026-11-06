@@ -1,5 +1,8 @@
 # Kitanda — Refinamentos e conflitos
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 O levantamento funcional está concluído. Os pontos abaixo delimitam implementação e integração sem reabrir o objetivo e o escopo aprovados.
 
 | ID | Tema | Refinamento necessário |
@@ -29,3 +32,7 @@ Compartilhamento externo não é pendência: é proibido no MVP. Ordem é compar
 Fechar permissões (Q-I01–03) antes das operações compartilhadas. Definir soma/quantidade e concorrência (Q-I04–08) junto aos contratos. Resolver recuperação, progresso e histórico (Q-I09–11) antes da homologação. As escolhas de apresentação e serviços restantes acompanham os fluxos afetados.
 
 Os riscos principais são escrita por visualizadores, perda de edição simultânea, limpeza atingindo registros inesperados e restauração de itens já removidos. Eles não exigem acrescentar catálogo, engine de estoque ou infraestrutura distribuída ao MVP.
+
+## Tratamento posterior na Alpha 1
+
+A tabela acima preserva as questões identificadas na consolidação original. Consulte o [contrato aprovado](alpha-1.md) para a resolução no incremento. Uma questão pode estar resolvida para a Alpha 1 e continuar aberta para contextos ou capacidades adiados. A POC de autenticação, biblioteca de frontend, licença e CD mantêm seus status próprios.

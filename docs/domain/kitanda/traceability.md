@@ -1,5 +1,8 @@
 # Kitanda — Rastreabilidade
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 ## Fontes e escopo
 
 - Especificação funcional Kitanda, MVP, levantamento concluído, fornecida diretamente na conversa. O [registro das definições](../../reference/kitanda-definicoes-fornecidas.md) transcreve os enunciados e complementos; não é arquivo original anexado.
@@ -99,3 +102,7 @@ Há 22 RF, 35 RN na especificação atual e duas restrições herdadas identific
 ## Limites da consolidação
 
 Não foram importadas funcionalidades do Jaci, regras financeiras do Kapanga, ordenação individual do Urukum ou compartilhamento ampliado do Okape. A estrutura documental, modelo conceitual e cenários são derivados; opções não aprovadas permanecem nas pendências de implementação.
+
+## Refinamento aprovado em 2026-11-06
+
+O [contrato da Alpha 1](alpha-1.md) acrescenta alcance e critérios complementares sem renumerar RF, RN ou CA. As issues #1 e #3 registram a aprovação. Critérios gerais de capacidades adiadas não são declarados atendidos pelo incremento.

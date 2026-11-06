@@ -27,7 +27,7 @@ A base utilizada foi o contexto do projeto e a recuperação das definições an
 | 0007 | [Contratos com TypeBox e OpenAPI 3.1](0007-contratos-typebox-openapi.md) | Aceita |
 | 0008 | [Autenticação sem e-mail pessoal e avaliação do Better Auth](0008-autenticacao-better-auth.md) | Condicionada à POC |
 | 0009 | [Múltiplos núcleos e níveis de administração](0009-nucleos-autorizacao.md) | Aceita |
-| 0010 | [Exclusão lógica, retenção e exportação individual](0010-ciclo-dados-exportacao.md) | Aceita |
+| 0010 | [Exclusão lógica, retenção e exportação individual](0010-ciclo-dados-exportacao.md) | Parcialmente substituída na Alpha 1 por 0023 |
 | 0011 | [Armazenamento de arquivos em disco local](0011-arquivos-disco-local.md) | Aceita |
 | 0012 | [Processamento assíncrono no processo Fastify com PostgreSQL](0012-processamento-assincrono.md) | Aceita |
 | 0013 | [Testes com Vitest e Playwright](0013-testes-vitest-playwright.md) | Aceita |
@@ -40,6 +40,7 @@ A base utilizada foi o contexto do projeto e a recuperação das definições an
 | 0020 | [Bibliotecas complementares do frontend](0020-bibliotecas-frontend.md) | Pendente |
 | 0021 | [Entrega e implantação contínuas](0021-entrega-implantacao-continua.md) | Pendente |
 | 0022 | [Licença de distribuição](0022-licenca.md) | Pendente |
+| 0023 | [Histórico de domínio e retenção por categoria na Alpha 1](0023-auditoria-retencao-alpha-1.md) | Aceita para a Alpha 1 |
 
 ## Pontos que precisam de acompanhamento
 
@@ -60,3 +61,7 @@ Ao mudar uma decisão aceita, criar outra ADR com novo número e indicar a subst
 
 Requisitos detalhados dos módulos — como estados de despesas, parcelamento e recorrência — pertencem à documentação de domínio. Foram mantidos fora deste conjunto para não transformar regras operacionais em decisões de arquitetura.
 
+
+## Refinamento da primeira entrega
+
+Em 2026-11-06, a ADR-0023 substitui parcialmente a ADR-0010 para a Alpha 1. A aprovação de políticas de acesso não aceita automaticamente o Better Auth: ADR-0008 continua condicionada à POC.

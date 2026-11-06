@@ -1,8 +1,12 @@
 # ADR-0010: Exclusão lógica, retenção e exportação individual
 
-- **Status:** Aceita
+- **Status:** Parcialmente substituída para a Alpha 1 pela [ADR-0023](0023-auditoria-retencao-alpha-1.md)
 - **Data de registro:** 2026-11-03
 - **Projeto:** Kafofo
+
+## Alcance da substituição
+
+A ADR-0023 antecipa o histórico do Kitanda e delimita retenção por categoria e ausência de configuração pela interface na Alpha 1. Exclusão lógica e exportação individual continuam válidas; o texto abaixo preserva a decisão original.
 
 ## Contexto
 

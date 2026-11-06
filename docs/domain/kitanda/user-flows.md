@@ -1,5 +1,8 @@
 # Kitanda — Fluxos de uso
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 ## FL-I01 — Criar e consultar lista
 
 **Base:** RF-144, RF-296, RF-304–305; RN-227–228, RN-242.

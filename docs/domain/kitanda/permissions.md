@@ -1,5 +1,8 @@
 # Kitanda — Permissões e compartilhamento
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 ## Regras conhecidas
 
 | Operação | Autorização definida | Limite ou pendência |
