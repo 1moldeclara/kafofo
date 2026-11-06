@@ -14,6 +14,7 @@ export default tseslint.config(
       'playwright-report/**',
       'test-results/**',
       'apps/api/drizzle/meta/**',
+      'pocs/auth/drizzle/meta/**',
     ],
   },
   js.configs.recommended,
@@ -36,7 +37,7 @@ export default tseslint.config(
     },
   },
   {
-    files: ['apps/web/src/**/*.{ts,tsx}'],
+    files: ['apps/web/src/**/*.{ts,tsx}', 'pocs/auth/src/client/**/*.{ts,tsx}'],
     plugins: { 'react-hooks': hooks, 'react-refresh': refresh },
     rules: {
       ...hooks.configs.recommended.rules,
