@@ -18,7 +18,8 @@ export function validatePassword(value: string) {
 function databaseIdentity(value: string) {
   const url = new URL(value);
   if (!['postgres:', 'postgresql:'].includes(url.protocol)) throw new Error();
-  return `${url.hostname.toLowerCase()}:${url.port || '5432'}${decodeURIComponent(url.pathname)}`;
+  // Conservatively reject a known database name even through another host/port alias.
+  return decodeURIComponent(url.pathname);
 }
 export function validateDatabaseUrl(
   value: string | undefined,

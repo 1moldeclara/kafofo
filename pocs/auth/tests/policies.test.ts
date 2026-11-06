@@ -43,4 +43,11 @@ describe('contrato aprovado da identidade', () => {
       validateDatabaseUrl(url, { TEST_DATABASE_URL: url.replace('poc:segredo', 'other:password') }),
     ).toThrow();
   });
+  it('recusa também o nome de banco conhecido por outro alias de host', () => {
+    expect(() =>
+      validateDatabaseUrl('postgresql://poc@127.0.0.1:55405/kafofo_auth_poc', {
+        DATABASE_URL: 'postgresql://other@localhost:55405/kafofo_auth_poc',
+      }),
+    ).toThrow(/^Banco exclusivo/);
+  });
 });

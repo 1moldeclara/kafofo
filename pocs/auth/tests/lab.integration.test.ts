@@ -387,4 +387,35 @@ describe('Better Auth, Drizzle e PostgreSQL reais', () => {
     expect(() => invoke(member.username)).toThrow();
     await expect(lab.issueRecovery({ kind: 'operator' }, member.id)).rejects.toThrow();
   });
+  it('valida o corpo HTTP e recusa identidade administrativa enviada pelo cliente', async () => {
+    const malformed = [
+      { username: name() },
+      { username: name(), password, role: 'global-admin' },
+      { username: [], password },
+    ];
+    for (const payload of malformed) {
+      const result = await server.inject({
+        remoteAddress: source,
+        method: 'POST',
+        url: '/lab/login',
+        headers: origin,
+        payload,
+      });
+      expect(result.statusCode).toBe(400);
+      expect(result.body).not.toContain(password);
+    }
+    for (const userId of [randomUUID(), (await identity()).id]) {
+      expect(
+        (
+          await server.inject({
+            remoteAddress: source,
+            method: 'POST',
+            url: '/lab/recovery',
+            headers: origin,
+            payload: { userId },
+          })
+        ).statusCode,
+      ).toBe(401);
+    }
+  });
 });
