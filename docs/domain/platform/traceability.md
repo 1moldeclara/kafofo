@@ -1,5 +1,8 @@
 # Plataforma — Rastreabilidade
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 ## Requisitos funcionais
 
 A matriz agrupa IDs consecutivos apenas para facilitar leitura; cada ID permanece individual no catálogo funcional. Referências de aceitação são cenários de cobertura inicial, não alegação de completude de testes.
@@ -71,3 +74,7 @@ Os nomes RF-145 e RF-146 mudaram entre o levantamento antigo e a especificação
 ## Organização e proveniência
 
 A estrutura `docs/domain/platform/` é uma organização documental desta entrega, coerente com limites do monólito modular. Não é uma estrutura de código imposta pelas ADRs. [Fontes](../../reference/fontes.md) registra os documentos de entrada e seus hashes locais. [Pendências](open-questions.md) preserva as diferenças ainda não resolvidas.
+
+## Refinamento aprovado em 2026-11-06
+
+O [contrato da Alpha 1](alpha-1.md) acrescenta alcance e critérios complementares sem renumerar RF, RN ou CA. As issues #1 e #3 registram a aprovação. Critérios gerais de capacidades adiadas não são declarados atendidos pelo incremento.

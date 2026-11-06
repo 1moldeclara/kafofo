@@ -1,5 +1,8 @@
 # Kitanda — Ciclo de listas e itens
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 ## Marcação de compra
 
 Item pode ser marcado e desmarcado como comprado. Cada alteração registra quem e quando. Não exige confirmação ou justificativa. Item comprado permanece na lista, separado visualmente dos pendentes.

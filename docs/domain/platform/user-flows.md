@@ -1,5 +1,8 @@
 # Plataforma — Fluxos de uso
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 Os fluxos consolidam comportamentos aprovados. Passos técnicos e tratamentos sem definição constam como pendências, sem simular uma implementação concluída.
 
 ## FL-P01 — Primeiro cadastro e novo núcleo

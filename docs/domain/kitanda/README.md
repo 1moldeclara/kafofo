@@ -1,5 +1,8 @@
 # Kitanda — Documentação do módulo
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 **Produto:** Kafofo · **Área:** Listas de compras · **Escopo:** MVP · **Levantamento:** concluído · **Consolidação:** 2026-11-03.
 
 A documentação organiza as definições aprovadas para implementação, com refinamentos locais ainda necessários. Não comprova código implementado nem testes executados.
@@ -29,4 +32,4 @@ Referências usam escopo, como `kitanda/RF-145`, sem alterar a numeração forne
 
 ## Refinamentos da Alpha 1
 
-As decisões posteriores aprovadas para a primeira entrega estão na [issue de referência da Alpha 1](https://github.com/vguerrax/kafofo/issues/1). Para este incremento, consultar essas decisões em conjunto com a especificação. Resoluções e adiamentos não devem ser inferidos a partir das pendências históricas. A atualização dos documentos de domínio será revisada na [issue de refinamento](https://github.com/vguerrax/kafofo/issues/3).
+O [contrato aprovado](alpha-1.md) consolida as decisões das issues [#1](https://github.com/vguerrax/kafofo/issues/1) e [#3](https://github.com/vguerrax/kafofo/issues/3), com alcance, adiamentos e aceitação complementar. O backlog e as evidências de execução permanecem nas Issues e no Project.

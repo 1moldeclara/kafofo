@@ -1,5 +1,8 @@
 # Kafofo — Documentação da plataforma
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 **Escopo:** MVP da plataforma · **Consolidação:** 2026-11-03 · **Status:** documentação funcional estruturada; não comprova implementação.
 
 A plataforma fornece a base comum para identidade, administração, contextos, autorização e serviços transversais do ecossistema Kafofo. As regras específicas de cada módulo serão documentadas separadamente.
@@ -43,4 +46,4 @@ A implementação e seus testes não foram executados nesta etapa. Critérios de
 
 ## Refinamentos da Alpha 1
 
-As decisões posteriores aprovadas para a primeira entrega estão na [issue de referência da Alpha 1](https://github.com/vguerrax/kafofo/issues/1). Para este incremento, consultar essas decisões em conjunto com a especificação. Resoluções e adiamentos não devem ser inferidos a partir das pendências históricas. A atualização dos documentos de domínio será revisada na [issue de refinamento](https://github.com/vguerrax/kafofo/issues/3).
+O [contrato aprovado](alpha-1.md) consolida as decisões das issues [#1](https://github.com/vguerrax/kafofo/issues/1) e [#3](https://github.com/vguerrax/kafofo/issues/3), com alcance, adiamentos e aceitação complementar. O backlog e as evidências de execução permanecem nas Issues e no Project.

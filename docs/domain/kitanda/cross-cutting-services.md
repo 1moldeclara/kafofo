@@ -1,5 +1,8 @@
 # Kitanda — Serviços transversais
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 ## Contextos e ativação
 
 Usa identidade e autorização comuns. Cada lista possui um único contexto e não amplia acesso por compartilhar. Disponibilidade/habilitação seguem a plataforma; regras do espaço pessoal e módulos desativados ainda contêm pendências na base comum.

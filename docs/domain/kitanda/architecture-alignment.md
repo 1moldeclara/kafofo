@@ -1,5 +1,8 @@
 # Kitanda — Relação com a arquitetura
 
+> **Alpha 1:** consulte o [contrato aprovado deste incremento](alpha-1.md), que resolve ou adia explicitamente os pontos aplicáveis. O texto geral abaixo descreve o MVP; capacidades adiadas não são critérios de conclusão desta versão.
+
+
 | ADR | Aplicação |
 | --- | --- |
 | [0001](../../adr/0001-arquitetura-monolito-modular.md) e [0002](../../adr/0002-monorepo-pnpm.md) | Módulo interno do monólito no monorepo pnpm, com contratos explícitos |
