@@ -2,7 +2,7 @@
 
 Plataforma modular de organização e administração da vida doméstica compartilhada, com proposta open-source e self-hosted.
 
-Este conjunto reúne a documentação funcional e arquitetural do projeto. Comece pelo [índice da documentação](docs/README.md).
+O repositório reúne a documentação funcional e arquitetural e a fundação executável da Alpha 1. Comece pelo [índice da documentação](docs/README.md) ou pelo [guia de desenvolvimento local](docs/development/README.md).
 
 ## Navegação
 
@@ -28,4 +28,4 @@ A documentação descreve o MVP pretendido. Critérios de aceitação não são 
 - [Como contribuir](CONTRIBUTING.md).
 - [Regras para agentes](AGENTS.md).
 
-O repositório começa pela documentação. Não há aplicação implementada nesta importação. As etapas detalhadas do trabalho serão mantidas no GitHub Project após sua configuração, acompanhada na [issue #2](https://github.com/vguerrax/kafofo/issues/2).
+A fundação contém API Fastify, frontend React e contratos TypeBox compartilhados. Autenticação e funcionalidades domésticas ainda serão implementadas nas tarefas correspondentes. O [GitHub Project](https://github.com/users/vguerrax/projects/1) mantém as etapas de execução.

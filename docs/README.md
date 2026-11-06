@@ -4,16 +4,18 @@
 
 ## Documentação de domínio
 
-| Domínio | Diretório / índice | Conteúdo |
-| --- | --- | --- |
+Para executar a fundação técnica, consulte o [guia de desenvolvimento local](development/README.md).
+
+| Domínio    | Diretório / índice                     | Conteúdo                                                               |
+| ---------- | -------------------------------------- | ---------------------------------------------------------------------- |
 | Plataforma | [platform/](domain/platform/README.md) | Identidade, organização doméstica, autorização e serviços transversais |
-| Kapanga | [kapanga/](domain/kapanga/README.md) | Despesas, pagamentos, recorrência e parcelamento |
-| Kitanda | [kitanda/](domain/kitanda/README.md) | Listas de compras e atualização compartilhada |
-| Mutyrão | [mutyrao/](domain/mutyrao/README.md) | Tarefas, responsáveis, estados, notificações e lembretes |
-| Arakatu | [arakatu/](domain/arakatu/README.md) | Agenda, recorrência e integração de calendários |
-| Okape | [okape/](domain/okape/README.md) | Painéis, fontes de dados e componentes visuais |
-| Urukum | [urukum/](domain/urukum/README.md) | Notas, tags, preferências individuais, versões e lixeira |
-| Kitute | [kitute/](domain/kitute/README.md) | Cadernos de receitas pessoais, da residência e do núcleo |
+| Kapanga    | [kapanga/](domain/kapanga/README.md)   | Despesas, pagamentos, recorrência e parcelamento                       |
+| Kitanda    | [kitanda/](domain/kitanda/README.md)   | Listas de compras e atualização compartilhada                          |
+| Mutyrão    | [mutyrao/](domain/mutyrao/README.md)   | Tarefas, responsáveis, estados, notificações e lembretes               |
+| Arakatu    | [arakatu/](domain/arakatu/README.md)   | Agenda, recorrência e integração de calendários                        |
+| Okape      | [okape/](domain/okape/README.md)       | Painéis, fontes de dados e componentes visuais                         |
+| Urukum     | [urukum/](domain/urukum/README.md)     | Notas, tags, preferências individuais, versões e lixeira               |
+| Kitute     | [kitute/](domain/kitute/README.md)     | Cadernos de receitas pessoais, da residência e do núcleo               |
 
 Cada domínio possui índice próprio, visão geral, entidades, requisitos ou capacidades funcionais, regras, permissões, fluxos, critérios de aceitação, rastreabilidade e pendências. Documentos especializados detalham o comportamento de cada módulo.
 
