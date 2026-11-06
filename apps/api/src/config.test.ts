@@ -5,7 +5,7 @@ describe('configuração de inicialização', () => {
   it('usa loopback por padrão e mantém conexão opcional para liveness', () => {
     expect(readConfig({})).toMatchObject({
       host: '127.0.0.1',
-      port: 3000,
+      port: 4304,
       logLevel: 'info',
       databaseUrl: undefined,
     });

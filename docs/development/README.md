@@ -34,7 +34,7 @@ pnpm dev
 
 O Compose publica PostgreSQL somente em loopback, com volume persistente. É ferramenta local, não implantação de produção. Evite apagar o volume se houver dados que queira preservar.
 
-Interface: `http://127.0.0.1:5173`. API: `http://127.0.0.1:3000`. Vite encaminha `/api` ao backend; não é necessário habilitar CORS irrestrito. Se alterar a porta da API, informe `API_PROXY_TARGET` ao iniciar o frontend. `HOST`, `PORT`, `LOG_LEVEL` e `DATABASE_URL` são variáveis de servidor; não usar prefixo `VITE_` para segredos.
+Interface: `http://127.0.0.1:5304`. API: `http://127.0.0.1:4304`. Vite encaminha `/api` ao backend; não é necessário habilitar CORS irrestrito. Se alterar a porta da API, informe `API_PROXY_TARGET` ao iniciar o frontend. `HOST`, `PORT`, `LOG_LEVEL` e `DATABASE_URL` são variáveis de servidor; não usar prefixo `VITE_` para segredos.
 
 | Endpoint            | Significado                                                          |
 | ------------------- | -------------------------------------------------------------------- |
@@ -91,7 +91,7 @@ pnpm exec playwright install chromium
 pnpm test:e2e
 ```
 
-Playwright inicia API e Vite e testa conexão real entre frontend/backend, layout móvel e recuperação de erro por teclado. Esse teste não exige banco porque usa liveness; não constitui homologação funcional da Alpha 1.
+Playwright inicia API na porta 4404 e Vite na porta 5404, com proxy para essa API, e testa conexão real entre frontend/backend, layout móvel e recuperação de erro por teclado. Os testes usam servidores exclusivos e falham se as portas estiverem ocupadas, sem reutilizar serviços existentes. Assim, podem executar junto ao desenvolvimento nas portas 4304/5304. Esse teste não exige banco porque usa liveness; não constitui homologação funcional da Alpha 1.
 
 Crie um banco separado para verificar PostgreSQL, por exemplo com o serviço de desenvolvimento:
 

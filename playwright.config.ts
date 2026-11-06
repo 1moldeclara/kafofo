@@ -7,7 +7,7 @@ export default defineConfig({
   retries: process.env['CI'] ? 1 : 0,
   reporter: 'list',
   use: {
-    baseURL: 'http://127.0.0.1:4173',
+    baseURL: 'http://127.0.0.1:5404',
     trace: 'retain-on-failure',
     launchOptions: process.env['PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH']
       ? { executablePath: process.env['PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH'] }
@@ -17,14 +17,15 @@ export default defineConfig({
   webServer: [
     {
       command: 'pnpm --filter @kafofo/api dev',
-      url: 'http://127.0.0.1:3000/api/health',
-      reuseExistingServer: !process.env['CI'],
-      env: { HOST: '127.0.0.1', PORT: '3000', LOG_LEVEL: 'silent' },
+      url: 'http://127.0.0.1:4404/api/health',
+      reuseExistingServer: false,
+      env: { HOST: '127.0.0.1', PORT: '4404', LOG_LEVEL: 'silent' },
     },
     {
-      command: 'pnpm --filter @kafofo/web dev --host 127.0.0.1 --port 4173 --strictPort',
-      url: 'http://127.0.0.1:4173',
-      reuseExistingServer: !process.env['CI'],
+      command: 'pnpm --filter @kafofo/web dev --host 127.0.0.1 --port 5404 --strictPort',
+      url: 'http://127.0.0.1:5404',
+      reuseExistingServer: false,
+      env: { API_PROXY_TARGET: 'http://127.0.0.1:4404' },
     },
   ],
 });
