@@ -56,3 +56,6 @@ O backlog está nas Issues; estes documentos não mantêm cópias de tarefas ou 
 - [ADR-0023: histórico e retenção por categoria](adr/0023-auditoria-retencao-alpha-1.md).
 
 Estes contratos fixam o alcance aprovado do incremento; não comprovam implementação ou encerramento do MVP.
+
+
+Teste
