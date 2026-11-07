@@ -57,5 +57,4 @@ O backlog está nas Issues; estes documentos não mantêm cópias de tarefas ou 
 
 Estes contratos fixam o alcance aprovado do incremento; não comprovam implementação ou encerramento do MVP.
 
-
-Teste
+Fazenda testes de fork.
