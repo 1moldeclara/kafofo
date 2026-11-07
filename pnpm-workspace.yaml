@@ -1,6 +1,7 @@
 packages:
   - apps/*
   - packages/*
+  - pocs/*
 
 allowBuilds:
   esbuild: true

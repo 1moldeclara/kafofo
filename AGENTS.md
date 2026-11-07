@@ -16,7 +16,7 @@ O backlog oficial está nas Issues de `vguerrax/kafofo`. O GitHub Project, quand
 ## Implementação e revisão
 
 - Respeitar limites do monólito modular e contratos. Não ampliar o escopo para todos os módulos durante a Alpha 1.
-- Better Auth continua condicionado à POC. Dependências, licença e outras decisões pendentes não estão aprovadas apenas por aparecerem nas ADRs.
+- Better Auth/adaptador 1.7.18 foram aceitos para a Alpha 1 com as adaptações e regressões da ADR-0008. Não montar o handler genérico nem copiar o laboratório como implementação definitiva. Dependências, licença e outras decisões pendentes não estão aprovadas apenas por aparecerem nas ADRs.
 - Validar autorização no backend, inclusive histórico, contagens, lixeira e operações em lote. Papéis administrativos não concedem conteúdo privado automaticamente.
 - Aplicar testes proporcionais ao risco; não afirmar que critérios de aceitação foram testados sem evidências. Alterações documentais exigem verificação de links e coerência.
 - Documentar mudança de comportamento no domínio e citar a issue; não repetir descrição e status de tarefas em Markdown.
