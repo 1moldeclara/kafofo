@@ -2,6 +2,10 @@
 
 Experimento reproduzível da [issue #5](https://github.com/vguerrax/kafofo/issues/5), conforme o refinamento aprovado nessa issue. Não integra as rotas da API nem a interface normal do Kafofo. A decisão e seus limites ficam na [ADR-0008](../../docs/adr/0008-autenticacao-better-auth.md); regras funcionais na [Alpha 1](../../docs/domain/platform/alpha-1.md).
 
+## Resultado da decisão
+
+A revisão da POC foi aceita pelo mantenedor em 2026-11-06: Better Auth/adaptador 1.7.18 são viáveis para a Alpha 1 com a camada de adaptação demonstrada. A ADR-0008 registra a decisão, as obrigações de manutenção e as validações restantes da implementação. Esta aceitação não entrega autenticação às aplicações normais.
+
 ## Preparação
 
 Usar Node 24.x, pnpm 11.25.0, PostgreSQL 17 e Chromium do Playwright. Better Auth e seu adaptador Drizzle estão fixados em **1.7.18**. As versões da fundação foram preservadas; o lockfile inclui a resolução dos novos peers transitivos.

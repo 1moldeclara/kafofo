@@ -1,6 +1,6 @@
 # Desenvolvimento local
 
-Esta fundação implementa a estrutura da issue #4: API mínima, frontend inicial, contratos e ferramentas. Não implementa autenticação, núcleos ou listas. A adoção de Better Auth continua condicionada à POC #5.
+Esta fundação implementa a estrutura da issue #4: API mínima, frontend inicial, contratos e ferramentas. Não implementa autenticação, núcleos ou listas. Better Auth/adaptador 1.7.18 foram aceitos para a Alpha 1 após a POC #5, com as adaptações e limites da [ADR-0008](../adr/0008-autenticacao-better-auth.md). A integração à aplicação permanece nas tarefas correspondentes.
 
 O [laboratório de autenticação da #5](../../pocs/auth/README.md) possui banco, migrações, servidor, interface e verificações próprios. `pnpm dev` não inicia o laboratório; a API normal não recebe suas rotas. Testes de banco/navegador da POC são explícitos; suas verificações unitárias, tipos e build participam de `pnpm check`.
 

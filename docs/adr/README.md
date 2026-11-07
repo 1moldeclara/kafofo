@@ -25,7 +25,7 @@ A base utilizada foi o contexto do projeto e a recuperação das definições an
 | 0005 | [PostgreSQL como banco de dados](0005-banco-postgresql.md) | Aceita |
 | 0006 | [Drizzle ORM e Drizzle Kit](0006-drizzle-migracoes.md) | Aceita |
 | 0007 | [Contratos com TypeBox e OpenAPI 3.1](0007-contratos-typebox-openapi.md) | Aceita |
-| 0008 | [Autenticação sem e-mail pessoal e avaliação do Better Auth](0008-autenticacao-better-auth.md) | Condicionada à POC |
+| 0008 | [Autenticação sem e-mail pessoal e avaliação do Better Auth](0008-autenticacao-better-auth.md) | Aceita para a Alpha 1 |
 | 0009 | [Múltiplos núcleos e níveis de administração](0009-nucleos-autorizacao.md) | Aceita |
 | 0010 | [Exclusão lógica, retenção e exportação individual](0010-ciclo-dados-exportacao.md) | Parcialmente substituída na Alpha 1 por 0023 |
 | 0011 | [Armazenamento de arquivos em disco local](0011-arquivos-disco-local.md) | Aceita |
@@ -44,7 +44,7 @@ A base utilizada foi o contexto do projeto e a recuperação das definições an
 
 ## Pontos que precisam de acompanhamento
 
-1. Executar e registrar a POC do Better Auth antes de aceitá-lo definitivamente.
+1. Preservar as adaptações e regressões do Better Auth aceitas na ADR-0008; validar autorização contextual e operação real durante a implementação.
 2. Detalhar o mecanismo de isolamento dos dados entre núcleos e a matriz de autorização.
 3. Definir persistência, retomada, concorrência e idempotência do processamento assíncrono.
 4. Especificar backup e restauração conjuntos de PostgreSQL e arquivos; não há ferramenta ou política aprovada neste conjunto.
@@ -64,4 +64,4 @@ Requisitos detalhados dos módulos — como estados de despesas, parcelamento e 
 
 ## Refinamento da primeira entrega
 
-Em 2026-11-06, a ADR-0023 substitui parcialmente a ADR-0010 para a Alpha 1. A aprovação de políticas de acesso não aceita automaticamente o Better Auth: ADR-0008 continua condicionada à POC.
+Em 2026-11-06, a ADR-0023 substitui parcialmente a ADR-0010 para a Alpha 1. Naquele refinamento, a aprovação de políticas de acesso não aceitava automaticamente o Better Auth. Após a revisão da POC #5 e aprovação do mantenedor em 2026-11-06, a ADR-0008 passa a Aceita para a Alpha 1, limitada à versão e às adaptações demonstradas no PR #22.

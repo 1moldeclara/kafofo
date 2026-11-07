@@ -17,7 +17,7 @@ O repositório reúne a documentação funcional e arquitetural e a fundação e
 - [Decisões de arquitetura](docs/adr/README.md).
 - [Identidade de marca](docs/brand/README.md).
 
-A documentação descreve o MVP pretendido. Critérios de aceitação não são testes executados. Better Auth permanece condicionado à POC; bibliotecas complementares do frontend, CD e licença continuam pendentes conforme as ADRs.
+A documentação descreve o MVP pretendido. Critérios de aceitação não são testes executados. Better Auth foi aceito para a Alpha 1 com as adaptações da [ADR-0008](docs/adr/0008-autenticacao-better-auth.md); bibliotecas complementares do frontend, CD e licença continuam pendentes conforme as ADRs.
 
 **Consolidação do conjunto:** 2026-11-04. As datas originais dos documentos foram preservadas.
 
